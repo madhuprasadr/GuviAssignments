@@ -1,0 +1,15 @@
+Document Object:
+The document object represents the entire HTML document loaded in the browser window.
+It provides properties and methods to access and manipulate the content of the document, including elements, attributes, and styles.
+Through the document object, you can access elements by their IDs, classes, tags, or other attributes, and you can modify their content, style, or position.
+Examples of document object properties and methods include getElementById(), querySelector(), createElement(), innerHTML, appendChild(), etc.
+
+
+Window Object:
+The window object represents the browser window itself and acts as the global object for JavaScript code running in the browser.
+It provides properties and methods for controlling the browser window, such as resizing, navigating, opening new windows, and setting timeouts.
+Additionally, it contains properties related to the browsing context, including the location, history, navigator, and screen.
+The window object also serves as the global scope for JavaScript code running in the browser, meaning that variables and functions declared without the var, let, or const keywords become properties of the window object.
+Examples of window object properties and methods include setTimeout(), setInterval(), open(), close(), scrollTo(), localStorage, fetch(), etc.
+In summary, while the document object represents the HTML document itself and provides access to its content and structure, the window object represents the browser window and provides control over the browser's behavior and properties.
+

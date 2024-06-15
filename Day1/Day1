@@ -1,0 +1,40 @@
+Day 1 Assignment
+
+Task 1 :Difference between HTTP1.1 vs HTTP2
+Because HTTP/1.1 relies on the transport layer to avoid buffer overflow, 
+each new TCP connection requires a separate flow control mechanism. HTTP/2, 
+however, multiplexes streams within a single TCP connection, 
+and will have to implement flow control in a different manner
+
+Task 2 : objects and its internal representation in Javascript
+In JavaScript, objects are collections of key-value pairs, where keys are strings (or symbols) and values can be of any data type, 
+including other objects. 
+Objects are used to represent real-world entities, data structures, and more complex data types
+
+Task 3
+
+IP Address:
+
+An IP (Internet Protocol) address is a numerical label assigned to each device connected to a computer network.
+It serves two main purposes: host or network interface identification and location addressing.
+There are two versions of IP addresses in use today: IPv4 (32-bit) and IPv6 (128-bit).
+
+Port:
+In computer networking, a port is a communication endpoint.
+Ports are used by protocols in the transport layer of the Internet Protocol Suite, such as TCP (Transmission Control Protocol) and UDP (User Datagram Protocol).
+Ports are identified by numbers, with well-known ports (0-1023) reserved for specific protocols and purposes, and dynamic or private ports (1024-49151) available for general use.
+
+HTTP Methods:
+HTTP (Hypertext Transfer Protocol) methods are the actions that can be performed on a resource identified by a URL.
+Some common HTTP methods include:
+GET: Retrieve data from the server.
+POST: Submit data to the server.
+PUT: Update a resource on the server.
+DELETE: Remove a resource from the server.
+PATCH: Partially update a resource on the server.
+These methods define the semantics of the operation requested and are an essential part of the HTTP protocol.
+
+MAC Address:
+A MAC (Media Access Control) address is a unique identifier assigned to a network interface controller (NIC) for communications at the data link layer of a network segment.
+MAC addresses are typically assigned by the manufacturer of the network interface and are stored in the hardware.
+They are used for routing data within a network segment and are not typically routed across network boundaries like IP addresses.
