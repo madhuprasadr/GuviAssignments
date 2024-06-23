@@ -1,0 +1,115 @@
+{
+    "name": "Madhuprasad Ramalingam",
+    "contact": {
+                    "email": "r.madhuprasad@gmail.com",
+                    "phone": "+91 9965048100",
+                    "address": "13065, Tower13, Floor5, Prestige Bella Vista, Ayyappanthangal,Chennai-600-056"
+                },
+    "summary": "An ambitious, performance-driven senior professional with 18 years of experience in designing and 
+                architecting solutions, IT project management, business process reengineering, digital transformation, 
+                and leadership skills across diverse fields including Banking, NBFC, Mutual funds, and healthcare.",
+    "education": 
+                [
+                    {
+                        "degree": "Bachelor of ComputerAppliction",
+                        "institution": "Bharathidasan University ",
+                         "year": "2001-2004"
+                    },
+                    {
+                        "degree": "Master of ComputerAppliction",
+                        "institution": "Bharathidasan University ",
+                        "year": "2004-2007"
+                    },
+                    {
+                        "degree": "Master of Business Administration",
+                        "institution": "Pondicherry University ",
+                        "year": "2011-2013"
+                    }
+             ],
+    "experience": 
+             [
+                     {
+                            "title": "Data Analyst",
+                            "company": "Lason India Private Limited",
+                            "location": "Chennai,TN,India",
+                            "dates": "2007-2010",
+                            
+                     },
+                     {
+                            "title": "Assitant Manager",
+                            "company": "Procon Systems Private Limited (Captive Development Center of IDFC group of Companies)",
+                            "location": "Chennai,TN,India",
+                            "dates": "2010-2017",
+                            
+                    },
+                    {
+                            "title": "Associate Tech Lead",
+                            "company": "Encore Theme Technology Pvt Limited",
+                            "location": "Chennai,TN,India",
+                            "dates": "2017-2018",
+                        
+                    },
+                    {
+                            "title": "Senior Professional - Diigital Re-engineeing",
+                            "company": "Sutherland Global Services",
+                            "location": "Chennai,TN,India",
+                            "dates": "2018-2019",
+                        
+                   },
+                   {
+                            "title": "Head-IT",
+                            "company": "Green Malabar Finance Ventures Limited",
+                            "location": "Chennai,TN,India",
+                            "dates": "2019-2023",
+                    
+                   },  
+                   {
+                            "title": "Associate Vice President - Program Manager",
+                            "company": "Northern Arc Capital Limited ",
+                            "location": "Chennai,TN,India",
+                            "dates": "2023-2023",
+            
+                   },
+                   {
+                            "title": "General Manager",
+                            "company": "Belstar Microfinance",
+                            "location": "Chennai,TN,India",
+                            "dates": "2023-Till date",
+    
+                   } 
+              ],  
+     "responsibilities": 
+              [
+                         "Techno-functional management expert with a strong focus on business automation and driving digital 
+                         transformation for the business which enhances productivity and efficiency of the stakeholders. Demonstrated ability in implementing “game-changing” 
+                         process initiatives using vast expertise in analytical and problem-solving capabilities.",
+                         "Implemented lending solutions like LOS, LMS & accounting systems for the NBFCs   Centrum Financials, Altum Credo, 
+                         Fintree Financials as an associate tech-lead (Project Management) on behalf of encore theme technologies."
+              ],
+    "skills": [
+                        "Project Management",
+                        "Application Development",
+                        "Digital Transformation",
+                        "Change Management",
+                        "Requirement and Impact Analysis",
+                        "Operation Management",
+                        "Statutory Audits",
+                        "Quality Assurance"
+              ],
+    "languages": 
+    [
+                    {
+                        "language": "English",
+                        "proficiency": "Advnaced"
+                    },
+                    {
+                        "language": "Tamil",
+                        "proficiency": "Native"
+                    }
+    ],
+    "interests": [
+                    "Open-source development",
+                    "Machine learning",
+                    "Hiking"
+                  ]
+  }
