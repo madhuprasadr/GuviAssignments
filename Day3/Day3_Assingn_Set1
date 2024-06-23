@@ -1,0 +1,122 @@
+//1.Print odd numbers in an array
+let serial_no = [1,2,3,4,5,6,7,8,9,10];
+for(let i=0;i<serial_no.length;i++)
+{
+    if (i % 2 == 0)
+    {   
+     console.log(serial_no[i]);
+    }
+} 
+
+//2. Convert all the strings to title caps in a string array
+function convertToTitleCaps(strArray) {
+    let titleCapsArray = strArray.map(function(str) {
+        return str.toLowerCase().split(' ').map(function(word) {
+            return word.charAt(0).toUpperCase() + word.slice(1);
+        }).join(' ');
+    });
+    return titleCapsArray;
+}
+let strings = ["hello world", "good morning", "have a nice day"];
+let titleCapsStrings = convertToTitleCaps(strings);
+console.log(titleCapsStrings);
+
+//3. Sum of all numbers in an array
+let nos = [1,2,3,4,5,6,7,8,9,10];
+let j=0;
+for(let i=0;i<nos.length;i++)
+{
+    j = j+nos[i];
+   
+} 
+console.log(j);
+
+//4. Return all the prime numbers in an array
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+function isPrime(num) {
+    if (num <= 1) return false; 
+    if (num === 2) return true; 
+    if (num % 2 === 0) return false; 
+
+    for (let i = 3; i <= Math.sqrt(num); i += 2) 
+        {
+        console.log(i);
+        if (num % i === 0) {
+            return false;
+        }
+    }
+    return true;
+}
+function findPrimeNumbers(arr) {
+    return arr.filter(num => isPrime(num));
+}
+
+const primeNumbers = findPrimeNumbers(numbers);
+console.log("Prime numbers:", primeNumbers); 
+
+//5. Return all the palindromes in an array
+const words = ["Madhu","level", "hello", "radar", "madam", "Aadhini", "racecar"];
+
+
+function isPalindrome(str) {
+    const cleanedStr = str.toLowerCase();
+    return cleanedStr === cleanedStr.split('').reverse().join('');
+}
+
+function findPalindromes(arr) {
+    return arr.filter(str => isPalindrome(str));
+}
+
+const palindromeWords = findPalindromes(words);
+console.log("Palindromes:", palindromeWords); 
+
+// 6. Return median of two sorted arrays of the same size.
+const arr1 = [1,3,5];
+const arr2 = [12,14,16];
+
+    function findMedian(arr)
+    {
+    const n = arr.length;
+    if (n % 2 === 0)
+         {
+            const mid1 = arr[n/2 - 1];
+            const mid2 = arr[n/2];
+            const answer = (mid1 + mid2) / 2;
+            return (answer); 
+        } 
+        else
+        {
+            const answer1 = arr[Math.floor(n/2)];
+            return(answer1); 
+        }
+    }
+    console.log(findMedian(arr1));
+    console.log(findMedian(arr2));*/
+
+    //7. Remove duplicates from an array
+   function removeDuplicates(arr)
+    {
+        return [...new Set(arr)];
+    }
+    
+    const array1 = [1, 2, 2, 3, 4, 4, 5,5,5,8,9,9];
+    const array2 = ["apple", "banana", "orange", "banana", "apple"];
+    
+    console.log(removeDuplicates(array1)); // Output: [1, 2, 3, 4, 5];
+    console.log(removeDuplicates(array2)); // Output: ["apple", "banana", "orange"];
+
+    //8. Rotate an array by k times
+   function rotateArrayRight(arr, k) {
+        k = k % arr.length;
+        if (k === 0) {
+            return arr;
+        }
+        
+        return [...arr.slice(-k), ...arr.slice(0, arr.length - k)];
+    }
+    const array = [1, 2, 3, 4, 5,6];
+    const k = 5;
+    
+    const rotatedArray = rotateArrayRight(array, k);
+    console.log(rotatedArray);
