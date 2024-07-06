@@ -1,0 +1,48 @@
+// a. Print odd numbers in an array
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const oddNumbers = numbers.filter(num => num % 2 !== 0);
+console.log("Odd numbers:", oddNumbers);
+
+
+//b. Convert all the strings to title caps in a string array
+const stringArray = ["hello world", "madhuprasad is awesome", "title conversion"];
+const toTitleCase = (str) => 
+    {
+    return str.toLowerCase().split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+    };
+const titleCaseArray = stringArray.map(toTitleCase);
+console.log("Title case strings:", titleCaseArray); 
+
+//c.Sum of all numbers in an array
+const numbers = [1, 2, 3, 4, 5];
+const sum = numbers.reduce((total, num) => total + num, 0);
+console.log("Sum of numbers:", sum);
+
+//d. Return all the prime numbers in an array
+const isPrime = num => {
+    if (num <= 1) return false; // 0 and 1 are not prime numbers
+    if (num === 2) return true; // 2 is prime number
+    if (num % 2 === 0) return false; // Other even numbers are not prime
+
+    for (let i = 3; i <= Math.sqrt(num); i += 2) {
+        if (num % i === 0) {
+            return false;
+        }
+    }
+    return true;
+};
+
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const primeNumbers = numbers.filter(num => isPrime(num));
+console.log("Prime numbers:", primeNumbers);
+
+//e.Return all the palindromes in an array
+
+const strings = ["level", "hello", "radar", "madam", "apple", "racecar"];
+const isPalindrome = str => {
+    const cleanedStr = str.toLowerCase();
+    return cleanedStr === cleanedStr.split('').reverse().join('');
+}
+const palindromeStrings = strings.filter(str => isPalindrome(str));
+console.log("Palindromes:", palindromeStrings);
+
