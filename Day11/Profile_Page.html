@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Profile Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #e0e7e4;
+        }
+        .header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        .search-bar {
+            margin: 20px auto;
+            display: block;
+            width: 80%;
+            max-width: 600px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .box {
+            background-color: #34495e;
+            color: white;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            flex: 1 1 200px;
+            max-width: 300px;
+            box-sizing: border-box;
+        }
+        .large-box {
+            flex: 2 1 100%;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        GITHUB
+    </div>
+    <input type="text" class="search-bar" placeholder="Search">
+    <div class="container">
+        <div class="box" style="height: 300px;"></div>
+        <div class="box" style="height: 150px;"></div>
+        <div class="box" style="height: 150px;"></div>
+        <div class="large-box box" style="height: 200px;"></div>
+    </div>
+</body>
+</html>

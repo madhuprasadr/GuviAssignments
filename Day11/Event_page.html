@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .container h1 {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            width: 150px;
+            margin-right: 10px;
+        }
+        .form-group input, .form-group select {
+            flex: 1;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-group img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .form-group .image {
+            display: flex;
+            justify-content: center;
+        }
+        .buttons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .buttons button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .buttons .submit {
+            background-color: #28a745;
+            color: white;
+        }
+        .buttons .cancel {
+            background-color: #dc3545;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Event 1</h1>
+        <div class="info">
+            Number of available seats: <strong>23</strong>
+        </div>
+        <form>
+            <div class="form-group image">
+                <img src="./Photo.JPG" alt="Image">
+            </div>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone No.:</label>
+                <input type="text" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="seats">Number of seats:</label>
+                <select id="seats" name="seats" required>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="attendee2">Name of Attendee 2:</label>
+                <input type="text" id="attendee2" name="attendee2">
+            </div>
+            <div class="buttons">
+                <button type="submit" class="submit">Submit</button>
+                <button type="button" class="cancel">Cancel</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
