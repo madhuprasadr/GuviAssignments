@@ -1,0 +1,16 @@
+/* General page styling */
+.container {
+    max-width: 800px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cocktail-section, .meal-section, .taco-section {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}

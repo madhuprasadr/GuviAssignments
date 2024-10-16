@@ -1,0 +1,15 @@
+/* General page styling */
+.container {
+    max-width: 800px;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.crypto-section, .currency-section, .metal-section {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}

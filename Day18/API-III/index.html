@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h1 class="text-center">Finance Dashboard</h1>
+
+        <!-- Cryptocurrency Prices Section -->
+        <div class="crypto-section text-center mt-4">
+            <h2>Cryptocurrency Prices</h2>
+            <div id="cryptoResult"></div>
+            <button class="btn btn-primary mt-3" id="cryptoButton">Get Crypto Prices</button>
+        </div>
+
+        <!-- Currency Exchange Rates Section -->
+        <div class="currency-section text-center mt-4">
+            <h2>Currency Exchange Rates (USD)</h2>
+            <div id="currencyResult"></div>
+            <button class="btn btn-secondary mt-3" id="currencyButton">Get Exchange Rates</button>
+        </div>
+
+        <!-- Metal Prices Section -->
+        <div class="metal-section text-center mt-4">
+            <h2>Metal Prices (Gold & Silver)</h2>
+            <div id="metalResult"></div>
+            <button class="btn btn-success mt-3" id="metalButton">Get Metal Prices</button>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Custom JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+</html>
