@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Fun Facts</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <h1 class="text-center">Animal Fun Facts</h1>
+        
+        <!-- Section for Dog API -->
+        <div class="dog-section text-center mt-4">
+            <h2>Random Dog Image</h2>
+            <div id="dogImage"></div>
+            <button class="btn btn-primary mt-3" id="dogButton">Get Random Dog</button>
+        </div>
+
+        <!-- Section for Cat Facts -->
+        <div class="cat-section text-center mt-4">
+            <h2>Random Cat Fact</h2>
+            <p id="catFact"></p>
+            <button class="btn btn-secondary mt-3" id="catButton">Get Cat Fact</button>
+        </div>
+
+        <!-- Section for Fox API -->
+        <div class="fox-section text-center mt-4">
+            <h2>Random Fox Image</h2>
+            <div id="foxImage"></div>
+            <button class="btn btn-success mt-3" id="foxButton">Get Random Fox</button>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Custom JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+</html>
